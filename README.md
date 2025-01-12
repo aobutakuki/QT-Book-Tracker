@@ -26,11 +26,16 @@ The visual colors and the icon was designed by my brother, who wanted to help wh
 
 I will probably be updating this project from time to time and maybe in the future connecting it to a working server and managing the information from there, making so that the user can sync information between devices (althrough that might be a little too high level atm). Of course, before that I want to make it a usable book tracker that can be used for personal usage and I also want to learn a bit more on how to actually release a project, adding an installer or an script to add the necessary dependencies, libraries, etc.
 
-This project was compiled on VS Community 2022.
+This project was compiled on VS Community 2022 combined with QT for Visual Studio, QT Version: 6.8.1
 
 ## Requirements
 
--QT 6.8.1 : QtSQL, QtWebView, QtXML, QtWebEngine (and related modules), QtNework (and authorization) + default modules
+QT 6.8.1 (Default modules):
+-QtSQL
+-QtWebView
+-QtXML
+-QtWebEngine (and related modules) 
+-QtNework (and authorization)
 -SQLite or another SQL DB (must be either updated or removed manually on the code)
 
 
