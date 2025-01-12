@@ -31,11 +31,11 @@ This project was compiled on VS Community 2022 combined with QT for Visual Studi
 ## Requirements
 
 QT 6.8.1 (Default modules):
--QtSQL
--QtWebView
--QtXML
--QtWebEngine (and related modules) 
--QtNework (and authorization)
--SQLite or another SQL DB (must be either updated or removed manually on the code)
+- QtSQL
+- QtWebView
+- QtXML
+- QtWebEngine (and related modules) 
+- QtNework (and authorization)
+- SQLite or another SQL DB (must be either updated or removed manually on the code)
 
 
