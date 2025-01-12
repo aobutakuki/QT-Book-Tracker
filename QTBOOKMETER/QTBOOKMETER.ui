@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QTBOOKMETERClass</class>
+ <widget class="QMainWindow" name="QTBOOKMETERClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1250</width>
+    <height>879</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QTBOOKMETER</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {background-color: #131121}
+QLabel {color: white}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>1041</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="cursor" stdset="0">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QListWidget { background-color: #1D1A32; border-radius: 25px;}</string>
+    </property>
+    <property name="spacing">
+     <number>10</number>
+    </property>
+    <property name="viewMode">
+     <enum>QListView::ViewMode::ListMode</enum>
+    </property>
+    <property name="modelColumn">
+     <number>0</number>
+    </property>
+    <property name="currentRow">
+     <number>-1</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchEdit">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>40</y>
+      <width>631</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {    background-color: #1D1A32;
+    color: white;
+    border-radius: 9px;
+    padding: 5px; 
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="searchButton">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>40</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="whatsThis">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Important note:&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;Make sure to always input the &lt;span style=&quot; font-weight:700;&quot;&gt;full title&lt;/span&gt; on the search bar.&lt;/p&gt;&lt;p&gt;If you are looking for a series or multiple volumes specify either &lt;span style=&quot; font-weight:700;&quot;&gt;volume number&lt;/span&gt; or &lt;span style=&quot; font-weight:700;&quot;&gt;volume full title&lt;br/&gt;&lt;br/&gt;&lt;/span&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Example queue:&lt;/span&gt;&lt;br/&gt;&amp;quot;harry potter &lt;span style=&quot; font-style:italic;&quot;&gt;prisoner of azkaban&lt;/span&gt;&amp;quot;&lt;/p&gt;&lt;p&gt;&amp;quot;spyx family &lt;span style=&quot; font-style:italic;&quot;&gt;1&lt;/span&gt;&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;If even then you can't find what you are looking for, try being more specific&lt;/p&gt;&lt;p&gt;You can also try the &lt;span style=&quot; font-weight:700;&quot;&gt;ISBN, author name, &amp;quot;vol&amp;quot;, &lt;/span&gt;etc&lt;br/&gt;&lt;br/&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;Specific e&lt;/span&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;xample queue:&lt;/span&gt;&lt;span style=&quot; text-decoration: underline;&quot;&gt;&lt;br/&gt;&lt;/span&gt;&amp;quot;Harry Potter &lt;span style=&quot; font-style:italic;&quot;&gt;and the&lt;/span&gt; Prisioner of Azkaban &lt;span style=&quot; font-style:italic;&quot;&gt;J.K Rowling&lt;/span&gt;&amp;quot;&lt;br/&gt;&amp;quot;Spy &lt;span style=&quot; font-style:italic;&quot;&gt;x&lt;/span&gt; Family&lt;span style=&quot; font-style:italic;&quot;&gt; vol. &lt;/span&gt;1 &lt;span style=&quot; font-style:italic;&quot;&gt;Tatsuya Endo&lt;/span&gt;&amp;quot;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #1D1A32;
+    color: white;
+    border-radius: 9px;
+    padding: 5px; 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="displayL">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>90</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="over4">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>120</y>
+      <width>621</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="profileButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>100</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #1D1A32;
+    color: white;
+    border-radius: 50px;  /* Half of the width/height */
+    height: 100px;         /* Set fixed height */
+    width: 100px;          /* Set fixed width */
+    border: 4px solid white;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="iconLabel">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>10</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #1D1A32;
+    color: white;
+    border-radius: 9px;
+    padding: 5px; 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QTBOOKMETER.qrc"/>
+ </resources>
+ <connections/>
+</ui>

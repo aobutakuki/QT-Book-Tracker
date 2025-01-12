@@ -1,0 +1,7 @@
+﻿   Qt/MSBuild: 3.3.1.1
+   Qt: 6.8.1
+  QTBOOKMETER.cpp
+C:\Users\xanda\source\repos\QTBOOKMETER\QTBOOKMETER\QTBOOKMETER.cpp(263,1): warning C4715: '`QTBOOKMETER::addBookToList'::`2'::<lambda_3>::operator()': not all control paths return a value
+C:\Users\xanda\source\repos\QTBOOKMETER\QTBOOKMETER\QTBOOKMETER.cpp(336,1): warning C4715: '`QTBOOKMETER::addBookToList'::`2'::<lambda_4>::operator()': not all control paths return a value
+C:\Users\xanda\source\repos\QTBOOKMETER\QTBOOKMETER\QTBOOKMETER.cpp(189,1): warning C4715: '`QTBOOKMETER::addBookToList'::`2'::<lambda_2>::operator()': not all control paths return a value
+  QTBOOKMETER.vcxproj -> C:\Users\xanda\source\repos\QTBOOKMETER\x64\Debug\QTBOOKMETER.exe
