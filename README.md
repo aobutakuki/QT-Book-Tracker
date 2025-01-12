@@ -31,5 +31,6 @@ This project was compiled on VS Community 2022.
 ## Requirements
 
 -QT 6.8.1 : QtSQL, QtWebView, QtXML, QtWebEngine (and related modules), QtNework (and authorization) + default modules
+-SQLite or another SQL DB (must be either updated or removed manually on the code)
 
 
