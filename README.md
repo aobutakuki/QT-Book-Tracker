@@ -28,14 +28,16 @@ I will probably be updating this project from time to time and maybe in the futu
 
 This project was compiled on VS Community 2022 combined with QT for Visual Studio, QT Version: 6.8.1
 
-## Requirements
+## Images:
 
-QT 6.8.1 (Default modules):
-- QtSQL
-- QtWebView
-- QtXML
-- QtWebEngine (and related modules) 
-- QtNework (and authorization)
-- SQLite or another SQL DB (must be either updated or removed manually on the code)
+![image](https://github.com/user-attachments/assets/8a3bf003-d7b0-4994-9e57-6d5b4aeea447)
+![image](https://github.com/user-attachments/assets/b901ae62-e64c-4052-b9ae-97db1e743b25)
+
+
+## How to Build
+
+[QT Official Documentation](https://doc.qt.io/qt-5/windows-building.html)
+
+
 
 
